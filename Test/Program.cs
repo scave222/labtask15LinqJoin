@@ -26,7 +26,7 @@ namespace Test
             equals categry.Id select new {Title = Articu.Title, CategoryName = categry.CategoryName, Body = Articu.Body};
             foreach (var item in dataSources)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"Title:- {item.Title}\nCategory Name:- {item.CategoryName}\nBody:- {item.Body}\n\n");
             }
             
         }
