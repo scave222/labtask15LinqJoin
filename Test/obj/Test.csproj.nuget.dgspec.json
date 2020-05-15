@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\test\\Test.csproj": {}
+    "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\test\\Test.csproj": {
+    "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\test\\Test.csproj",
+        "projectUniqueName": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\test\\Test.csproj",
+        "projectPath": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\test\\obj\\",
+        "outputPath": "C:\\codebits-academy\\html5\\C#\\labtask15linqjoin\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

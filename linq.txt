@@ -27,3 +27,28 @@ namespace Test {
         }
     }
 }
+
+SELECT students.firstname,lastname,subjects.subject,grades.score FROM students INNER JOIN grades ON  
+students.Id = grades.student_id  INNER JOIN subjects ON grades.subject_id = subjects.id WHERE students.Id == "2"
+
+SELECT firstname,lastname,subject,score FROM 
+grades INNER JOIN students ON grades.student_id = students.Id 
+INNER JOIN subjects ON grades.subject_id = subjects.id 
+WHERE grades.student_id = 3
+
+SELECT customers.cust_name,customers.cust_phone,
+books.bookname,publishers.pub_name,stores.quantity,stores.selling_pr from 
+customers INNER JOIN orders ON customers.order_id = orders.cust_id
+INNER JOIN books ON orders.book_id = books.book_id 
+INNER JOIN publishers ON books.pub_id = publishers.id 
+INNER JOIN stores ON books.book_id = stores.book_id
+
+SELECT customers.cust_name,customers.cust_phone,books.bookname,
+publishers.pub_name,books.quantity,books.selling_pri from 
+customers INNER JOIN orders ON customers.id = orders.cus_id
+INNER JOIN books ON orders.book_id = books.book_id 
+INNER JOIN publishers ON books.pub_id = publishers.id
+
+INSERT INTO orders(book_id,stock_id,cust_id) VALUES(2,1,4);
+
+

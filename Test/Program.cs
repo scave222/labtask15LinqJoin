@@ -23,7 +23,7 @@ namespace Test
             Categories.Add(new Category (4, "Entertainment"));
 
             var  dataSources = from Articu in Articles join categry in Categories on Articu.CategoryId 
-            equals categry.Id select new {Title = Articu.Title, CategoryName = categry.CategoryName, Body = Articu.Body};
+            equals categry.Id orderby categry.CategoryName select new {Title = Articu.Title, CategoryName = categry.CategoryName, Body = Articu.Body};
             foreach (var item in dataSources)
             {
                 Console.WriteLine($"Title:- {item.Title}\nCategory Name:- {item.CategoryName}\nBody:- {item.Body}\n\n");
